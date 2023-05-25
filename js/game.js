@@ -61,8 +61,7 @@ class Game{
                          fill("red");
                          textSize(20);
                          // add code to display the player name on the respective basket
-                         form = new Form();
-                         form.display();
+                        text(allPlayers[plr].name , x , y);
                          
                      }
                     
